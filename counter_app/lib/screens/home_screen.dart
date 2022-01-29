@@ -28,7 +28,7 @@ class HomeScreen extends StatelessWidget {
         child: const Icon(Icons.add),
         onPressed: () {
           counter++;
-          print('$counter');
+          //print('$counter');
         },
       ),
     );
