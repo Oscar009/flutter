@@ -6,7 +6,6 @@ class AppRoutes {
   static const initialRoute = 'home';
 
   static final menuOptions = <MenuOption>[
-    // TODO: borrar home
     MenuOption(
         route: 'home',
         name: 'Home Screen',
