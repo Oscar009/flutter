@@ -17,11 +17,17 @@ class CardScreen extends StatelessWidget {
           SizedBox(
             height: 20,
           ),
-          CustomCardType2(),
+          CustomCardType2(
+              name: 'Un paisaje',
+              imageURL:
+                  'https://www.guillenphoto.com/data/blog/2015/011-paysages-10-astuces/images/10-tips-for-better-landscape-photos-amar-guillen-photographer-1.jpg'),
           SizedBox(
             height: 20,
           ),
-          CustomCardType2(),
+          CustomCardType2(
+            imageURL:
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrdVBH-GhzPeHxH2q1T0saOjNIYBIUw1iXNQ&usqp=CAU',
+          ),
           SizedBox(
             height: 20,
           ),
